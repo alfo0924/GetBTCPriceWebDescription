@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SetUpCpiWebSite</title>
+ <!--import google fonts CDN-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 
  <!--  import logo-->
  <link rel="apple-touch-icon-precomposed" loading="lazy" sizes="144x144" href="https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=032" aria-label="btcLogo in 144 times 144" alt="logo in paypal 144 times 144"  />
@@ -30,6 +34,10 @@
 
             font-size: 20px;
             flex-grow:1;
+
+         font-family: "Noto Sans TC", sans-serif;
+         font-optical-sizing: auto;
+         font-style: normal;
         }
 
         h1:hover
@@ -76,21 +84,6 @@
  <h1> 架設CPI網站<br> SetUpCPIWebsite</h1>
  <br>
  <br>
-<img src="img/webp/webp001.webp" width="1000" height="500" alt="" >
-<p>在IDE 裡建置Express.js 環境 <br> 參數設置ViewEngine:none </p>
-<br>
- <img src="img/webp/webp002.webp" width="1000" height="385" alt="" >
- <p>在終端機Terminal上<br> 輸入: npm install sqlite3 --save 安裝即可抓取Sqlite database的套件</p>
- <img src="img/webp/webp003.webp" width="1000" height="487" alt="">
- <p>在package.json 裡找到 dependencies <br> 若看到 "sqlite3": "^5.1.7" 即代表sqlite安裝成功 </p>
- <br>
- <a href="https://ithelp.ithome.com.tw/articles/10235682">安裝 Node js -- express + sqlite</a>
- <br>
- <br>
- <a href="https://expressjs.com/zh-tw/guide/database-integration.html"> 資料庫整合</a>
- <br>
- <br>
- <br>
  <h2> 前端爬蟲 Frontend WebCrawler </h2>
  <br>
  <p>搜尋 Jina Ai</p>
@@ -109,8 +102,26 @@
  <p>輸入要分析的網站</p>
  <img src="img/webp/webp037.webp" width="1000" height="500" alt="">
  <p>再按下Fetch Content 以抓取網站資料</p>
- <img src="img/webp/webp038.webp" width="1000" height="350" alt="">
- <p>可以問Ai 網站是如何抓取/使用Api 並寫成Html 以方便理解</p>
+ <img src="img/webp/webp038.webp" width="1000" height="500" alt="">
+ <p>可以問Ai 該網站是如何 抓取/使用Api 並再寫成Html </p>
+ <br>
+ <br>
+ <br>
+ <h2>建置環境 <br>Set Up Environment </h2>
+ <br>
+ <br>
+ <img src="img/webp/webp001.webp" width="1000" height="500" alt="" >
+ <p>在IDE 裡建置Express.js 環境 <br> 參數設置ViewEngine:none </p>
+ <br>
+ <img src="img/webp/webp002.webp" width="1000" height="385" alt="" >
+ <p>在終端機Terminal上<br> 輸入: npm install sqlite3 --save 安裝即可抓取Sqlite database的套件</p>
+ <img src="img/webp/webp003.webp" width="1000" height="487" alt="">
+ <p>在package.json 裡找到 dependencies <br> 若看到 "sqlite3": "^5.1.7" 即代表sqlite安裝成功 </p>
+ <br>
+ <a href="https://ithelp.ithome.com.tw/articles/10235682">安裝 Node js -- express + sqlite</a>
+ <br>
+ <br>
+ <a href="https://expressjs.com/zh-tw/guide/database-integration.html"> 資料庫整合</a>
  <br>
  <br>
  <br>
