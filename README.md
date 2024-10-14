@@ -1,4 +1,4 @@
-<a href="https://zealous-moss-0145c361e.5.azurestaticapps.net/">作品說明頁</a>
+<a href="https://alfo0924.github.io/GetBTCPriceWebDescription/">作品說明頁</a>
 
 ## 架設CPI網站
 
